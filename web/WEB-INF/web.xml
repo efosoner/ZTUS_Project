@@ -124,9 +124,9 @@
         <location>/view/500page.jsp</location>
     </error-page>
 
-    <!--<error-page>-->
-        <!--<error-code>404</error-code>-->
-        <!--<location>/view/404page.jsp</location>-->
-    <!--</error-page>-->
+    <error-page>
+        <error-code>404</error-code>
+        <location>/view/404page.jsp</location>
+    </error-page>
 
 </web-app>

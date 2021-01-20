@@ -39,8 +39,6 @@ public class UserLoginServlet extends HttpServlet {
             }
 
             response.sendRedirect("mainPage");
-            //RequestDispatcher dispatcher = request.getRequestDispatcher(destPage);
-            //dispatcher.forward(request, response);
 
         } catch (SQLException | ClassNotFoundException ex) {
             throw new ServletException(ex);
